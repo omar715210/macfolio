@@ -1,8 +1,12 @@
-import React from 'react'
+import { Navbar, Welcome } from '@components';
 
 const App = () => {
   return (
-    <div>App</div>
+   <main>
+    <Navbar/>
+    <Welcome/>
+
+   </main>
   )
 }
 
